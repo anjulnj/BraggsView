@@ -1,6 +1,6 @@
 # BraggsView 🔬
 
-[![CI](https://github.com/YOUR-GITHUB-USERNAME/braggsview/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-GITHUB-USERNAME/braggsview/actions/workflows/ci.yml)
+[![CI](https://github.com/anjulnj/BraggsView/actions/workflows/ci.yml/badge.svg)](https://github.com/anjulnj/BraggsView/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An interactive tool for visually comparing multiple XRD (X-ray diffraction) pattern files, with peak finding, Scherrer size estimation, and publication-ready export on top of the core comparison view.
