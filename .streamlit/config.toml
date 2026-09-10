@@ -1,0 +1,15 @@
+[theme]
+# CLEAN READABLE LIGHT — fixes "very black how can one read it"
+base = "light"
+primaryColor = "#2563EB"
+backgroundColor = "#FEFEFC"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#111827"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+
+[browser]
+gatherUsageStats = false

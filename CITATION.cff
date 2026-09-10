@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated to make BraggsView citable.
+# TODO before publishing: replace the placeholder name/affiliation below,
+# and add your ORCID if you have one (orcid: "https://orcid.org/0000-0000-0000-0000").
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BraggsView: An Interactive Tool for XRD Pattern Comparison"
+type: software
+version: 0.1.0
+date-released: "2026-09-10"
+authors:
+  - family-names: "[YOUR LAST NAME HERE]"
+    given-names: "[YOUR FIRST NAME HERE]"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    # affiliation: "Your Institution"
+license: MIT
+repository-code: "https://github.com/[YOUR-GITHUB-USERNAME]/braggsview"
+keywords:
+  - X-ray diffraction
+  - XRD
+  - powder diffraction
+  - crystallography
+  - data visualization
+  - Streamlit
