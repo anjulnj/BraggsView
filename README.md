@@ -70,11 +70,10 @@ project/
 ├── generate_examples.py   # generate synthetic .xy files
 ├── requirements.txt
 ├── README.md
-└── example_data/          # synthetic examples + your files (auto-created)
-    ├── synthetic_cubic.xy
-    ├── synthetic_tetragonal.xy
-    ├── synthetic_amorphous_mix.xy
-    └── CH020_ND_L.txt etc.
+└── example_data/          # synthetic examples (auto-created); drop your own
+    ├── synthetic_cubic.xy   # files here too, but this folder is gitignored
+    ├── synthetic_tetragonal.xy   # for anything except the synthetic_*.xy
+    └── synthetic_amorphous_mix.xy   # set, so real data never ships in the repo
 ```
 
 ## Installation & Running
@@ -195,7 +194,7 @@ CSV example:
 
 Each with Gaussian peaks, linear background, noise.
 
-You can also test with the 4 uploaded real files `CH020_ND_L.txt` etc. Negative 2θ values are preserved (some lab files start at -16°).
+Real lab files were also used for local testing (not shipped in this repo — see `.gitignore`), which confirmed negative 2θ values are preserved correctly (some lab files start at -16°).
 
 ## Dependencies
 

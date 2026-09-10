@@ -9,6 +9,7 @@ version: 0.1.0
 date-released: "2026-09-10"
 authors:
   - given-names: "Anjul"
+    family-names: "Rais"
     # orcid: "https://orcid.org/0000-0000-0000-0000"
     # affiliation: "Your Institution"
 license: MIT
